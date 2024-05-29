@@ -1,0 +1,90 @@
+/*Web page background*/
+body {
+    background-color: #13152A;
+    color: white;
+}  
+/*Ends Background*/
+/*Navbar styles start here*/
+#navegador {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    overflow: hidden;
+    background-color: #1F2449;
+    border-radius: 5px;
+    text-shadow: 2px 2px 2px black, 0 0 25px blue, 0 0 25px #000019;
+}
+.nav {
+    float: left;
+}
+.nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 26px;
+    text-decoration: none;
+}
+.nav a:hover {
+    background-color: #111;
+}
+.about_us {
+    float: right;
+    border: none;
+}
+.about_us a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 26px;
+    text-decoration: none;
+}
+.about_us a:hover {
+    background-color: #111;
+}
+.active {
+    background-color: #2F8185;
+}
+.svgs {
+    width: 30px;
+    height: 30px;
+}
+/*The navbar styles end here*/
+/*Styles for title*/
+h1 {
+    text-align: center;
+    font-size: 4em;
+}
+/*Styles for the videos*/
+.container_1 {
+    text-align: center;
+}
+.container_1 h3 {
+    font-size: 2em;
+}
+.container_1 div {
+    display: inline-block; 
+    margin: 75px; 
+    vertical-align: top; 
+}
+section video {
+    border: 5px;
+    border-radius: 20px;
+    border-color: #2F8185;
+}
+.container_2 img {
+    border-radius: 20px;
+    height: 400px;
+    width: auto;
+    display: inline-block;
+    margin: 30px;
+    vertical-align: top;
+}
+.container_3 img {
+    border-radius: 20px;
+    height: 400px;
+    width: auto;
+    display: inline-block;
+    margin: 30px;
+    vertical-align: top;
+}
